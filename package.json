@@ -1,16 +1,24 @@
 {
-  "name": "code",
+  "name": "pupet",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^8.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samkahunga65/pupet.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "nodemon": "^2.0.7",
-    "puppeteer": "^8.0.0"
-  }
+  "bugs": {
+    "url": "https://github.com/samkahunga65/pupet/issues"
+  },
+  "homepage": "https://github.com/samkahunga65/pupet#readme"
 }
